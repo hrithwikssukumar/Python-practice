@@ -37,5 +37,27 @@ else:
 
 # Task 4
 
+num_terms = int(input("Enter the number of terms: "))
+
+# Initialize the first two terms
+a, b = 0, 1
+
+print("Fibonacci Series:")
+for _ in range(num_terms):  # Repeat for the number of terms
+    print(a, end=" ")       # Print the current term
+    a, b = b, a + b   
+    
+    
+    
+    
+# Task 5
+for i in range(7):
+    for j in range(6):
+        if(i==0 or i==2 or i==4 or i==6 or j==0 ):
+            print("* ",end="")
+        else:
+            print(" " ,end="")
+    print()           # Update values: next term = sum of previous two
+
 
 
