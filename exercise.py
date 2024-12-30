@@ -1,20 +1,20 @@
 
 
-# list = [2,3,4,5,6,7,8,56,78,8]
-# count = 0
-# for i in list:
-#     if i % 2 == 0:
-#         count+=1
-# print("even numbers:",count)        
+list = [2,3,4,5,6,7,8,56,78,8]
+count = 0
+for i in list:
+    if i % 2 == 0:
+        count+=1
+print("even numbers:",count)        
 
 
 
-# marks = int(input("enter the score of written test"))
-# lab_exam = int(input("enter the score of lab exam "))
-# assignment = int(input("enter the score of assignment"))
+marks = int(input("enter the score of written test"))
+lab_exam = int(input("enter the score of lab exam "))
+assignment = int(input("enter the score of assignment"))
 
-# overall_grade = marks*0.7 + lab_exam*0.2 + assignment*0.1
-# print("Overall Grade:",overall_grade)
+overall_grade = marks*0.7 + lab_exam*0.2 + assignment*0.1
+print("Overall Grade:",overall_grade)
 
 
 def addition(a,b):

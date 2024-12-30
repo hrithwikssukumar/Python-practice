@@ -1,21 +1,21 @@
-# class Mentor:
+class Mentor:
 
-#    def __init__(self) :
-#     print("player of team India")
+   def __init__(self) :
+    print("player of team India")
      
 
-#     pass
-# mentor_1 = Mentor()
-# mentor_1.name = "Hrithwik"
-# mentor_1.address = "Gokulam"
-# print(mentor_1.name)
-# print(mentor_1.address)
+    pass
+mentor_1 = Mentor()
+mentor_1.name = "Hrithwik"
+mentor_1.address = "Gokulam"
+print(mentor_1.name)
+print(mentor_1.address)
 
-# mentor_2 = Mentor()
-# mentor_2.name = "Virat"
-# mentor_2.address = "Bangalore"
-# print(mentor_2.name)
-# print(mentor_2.address)
+mentor_2 = Mentor()
+mentor_2.name = "Virat"
+mentor_2.address = "Bangalore"
+print(mentor_2.name)
+print(mentor_2.address)
 
 
 
