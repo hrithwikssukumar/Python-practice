@@ -1,12 +1,26 @@
-def is_palindrome(word):
-    # Convert the word to lowercase to make it case-insensitive
-    word = word.lower()
-    # Check if the word is equal to its reverse
-    return word == word[::-1]
 
-# Test the function
-test_word = "Madam"
-if is_palindrome(test_word):
-    print(f'"{test_word}" is a palindrome.')
+name = input("Enter the name:")
+
+name = name.replace(" ","").lower()
+
+if name == name[::-1]:
+    print(f"The name is palindrome")
 else:
-    print(f'"{test_word}" is not a palindrome.')
+    print(f"The name is not palindrome")
+
+
+def is_palindrome(string):
+    
+    cleaned_string = string.replace(" ", "").lower()
+    return cleaned_string == cleaned_string[::-1]
+
+input_string = input("Enter a string to check if it's a palindrome: ")
+
+if is_palindrome(input_string):
+    print(f'"{input_string}" is a palindrome.')
+else:
+    print(f'"{input_string}" is not a palindrome.')
+
+
+
+
