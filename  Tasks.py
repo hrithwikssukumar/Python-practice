@@ -97,6 +97,7 @@ write a program to find the sum of all the odd numbers for a given limit
 limit = int(input("enter the limit:"))
 sum = 0
 
+
 for i in range(1,limit+1,2):
     sum = sum + i
 print("Sum is :",sum)    
