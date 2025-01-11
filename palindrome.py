@@ -9,6 +9,7 @@ else:
     print(f"The name is not palindrome")
 
 
+
 def is_palindrome(string):
     
     cleaned_string = string.replace(" ", "").lower()

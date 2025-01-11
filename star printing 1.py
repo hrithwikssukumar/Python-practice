@@ -68,6 +68,8 @@ for i in range(n):
     print()            
 
 
+
+
 #star printing 8-Diamond pattern
 n= int(input("enter a number"))
 for i in range(n-1):
