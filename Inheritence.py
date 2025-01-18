@@ -1,31 +1,31 @@
 
 
 
-# class Human:
-#     def eat(self):
-#         print("I can work")
-#     def drink(self):
-#         print("I can drink")
+class Human:
+    def eat(self):
+        print("I can work")
+    def drink(self):
+        print("I can drink")
             
-# class Male(Human):
+class Male(Human):
 
-# male_1 = Male()
+male_1 = Male()
 
-# male_1.eat()            
+male_1.eat()            
 
 
-# class Human:
-#     def eat(self):
-#         print("I can work")
+class Human:
+    def eat(self):
+        print("I can work")
     
-#     def drink(self):
-#         print("I can drink")
+    def drink(self):
+        print("I can drink")
 
-# class Male(Human):
-#     pass
+class Male(Human):
+    pass
 
-# male_1 = Male()
-# male_1.eat()
+male_1 = Male()
+male_1.eat()
 
 
 
