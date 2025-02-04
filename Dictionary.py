@@ -21,7 +21,6 @@ print(mydict.values())
 mydict["collection"] = "500cr"
 print(mydict)
 
-
 for x,y in mydict.items():
     print(x,y)
 

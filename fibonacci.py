@@ -14,7 +14,7 @@ def fibonacci_series(n):
     return series
 
 
-# Example usage
+
 num_terms = int(input("Enter the number of terms: "))
 print("Fibonacci Series:", fibonacci_series(num_terms))
 

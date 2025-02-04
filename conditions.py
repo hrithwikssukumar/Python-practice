@@ -1,6 +1,4 @@
 
-
-
 choice = int(input("1 for biriyani,2 for chappathi,3 for porotta,4 for mandi "))
 if(choice==1):
     print("you have selected biriyani")

@@ -11,3 +11,4 @@ array = [10, 20, 30, 40, 50]
 target = int(input("Enter the number to search for: "))
 result = find_number_in_array(array, target)
 print(result)
+

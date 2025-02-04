@@ -10,8 +10,6 @@ print(f"The sorted array is :{numbers}")
 
 
 
-
-
 #reverse array
 
 numbers =[12,34,54,32,76,45,86,75,36,29,42]
