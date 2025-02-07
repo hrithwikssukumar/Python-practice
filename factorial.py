@@ -5,4 +5,6 @@ def factorial(number):
     return fact
 number = int(input("Enter a number"))
 result =factorial(number)
-print(f"Factorial is :{result}")        
+print(f"Factorial is :{result}")   
+
+

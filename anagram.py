@@ -6,3 +6,6 @@ if sorted_1==sorted_2:
     print("Words are anagram")
 else:
     print("Words are not anagram")
+
+
+    
