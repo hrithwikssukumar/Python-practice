@@ -80,7 +80,7 @@ match number:
         print("Invalid entry")
 
                   
-                  
+                 
 Task 7
 write a program to print the multiplication table of given numbers
 
@@ -88,7 +88,6 @@ number = int(input("enter a number:"))
 
 for i in range(1,11):
     print(number,"*",i,"=",number*i)
-
 
 
 Task 8
@@ -101,6 +100,7 @@ sum = 0
 for i in range(1,limit+1,2):
     sum = sum + i
 print("Sum is :",sum)    
+
 
 
 Task 9
@@ -309,12 +309,6 @@ print("Overall Grade:",overall_grade)
 
 
 
-
-
-
-
-
-
 Task 19
 write a program to find out the income tax amount of a person
 def calculate_income_tax(income):
@@ -341,10 +335,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-
 
 
 
