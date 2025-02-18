@@ -1,13 +1,13 @@
 
 
-# print("Hey"+" "+input("what is your name")+" ""how are you")
+print("Hey"+" "+input("what is your name")+" ""how are you")
 
 
-# name = input("what is your name")
-# length = len(name)
-# print(length)
+name = input("what is your name")
+length = len(name)
+print(length)
 
-# print(len("hrithwik sheena sukumar"))
+print(len("hrithwik sheena sukumar"))
 
 
 

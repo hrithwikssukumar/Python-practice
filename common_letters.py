@@ -1,0 +1,5 @@
+word1 = input("Enter the first word: ").lower()
+word2 = input("Enter the second word: ").lower()
+common_letters = set(word1) & set(word2)
+print(f"The common letters are {common_letters}")
+print(f"The number of common letters are {len(common_letters)}")
