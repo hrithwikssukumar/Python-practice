@@ -31,12 +31,12 @@ else:
 def find_target_position(numbers, target):
     """Find the position of the target number in the list."""
     if target in numbers:
-        index = numbers.index(target)  # Get first occurrence index
-        return index + 1  # Convert to 1-based index
+        index = numbers.index(target) 
+        return index + 1  
     else:
-        return -1  # Return -1 if target not found
+        return -1  
 
-# Taking input
+
 def main():
     n = int(input("Enter the size of the array: "))
     numbers = []
@@ -47,7 +47,7 @@ def main():
 
     target = int(input("Enter the target to find: "))
 
-    # Call function
+    
     position = find_target_position(numbers, target)
 
     if position != -1:
@@ -55,6 +55,6 @@ def main():
     else:
         print("No such number is present in this list")
 
-# Run the program
+
 if __name__ == "__main__":
     main()    
