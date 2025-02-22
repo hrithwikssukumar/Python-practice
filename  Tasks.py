@@ -162,10 +162,10 @@ write a program to identify the string is palindrome or not
 
 
 def is_palindrome(s):
-    # Convert the string to lowercase and remove spaces
+    
     s = s.lower().replace(" ", "")
     
-    # Compare the string with its reverse
+
     return s == s[::-1]
 
 
@@ -183,14 +183,12 @@ write a program to add two dimensional arrays
 
 
 def add_2d_arrays(arr1, arr2):
-    # Check if both arrays have the same dimensions
+    
     if len(arr1) != len(arr2) or len(arr1[0]) != len(arr2[0]):
-        return None  # Return None if dimensions don't match
+        return None  
 
-    # Initialize a result array with the same dimensions as input arrays
     result = [[0 for _ in range(len(arr1[0]))] for _ in range(len(arr1))]
 
-    # Add corresponding elements
     for i in range(len(arr1)):
         for j in range(len(arr1[0])):
             result[i][j] = arr1[i][j] + arr2[i][j]
@@ -226,7 +224,7 @@ def display_array(arr):
         print(element, end=" ")
 
 def main():
-    # Input array from the user
+    
     arr = []
     n = int(input("Enter the number of elements in the array: "))
     print("Enter the elements:")
@@ -234,7 +232,7 @@ def main():
         element = int(input())
         arr.append(element)
 
-    # Display the array
+    
     display_array(arr)
 
 if __name__ == "__main__":
