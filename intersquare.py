@@ -8,9 +8,6 @@ for i in list:
 print(new_list)
 
 
-
-
-
 def inter_square(list):
     new_list =[]
     for i in list:
