@@ -195,7 +195,7 @@ def add_2d_arrays(arr1, arr2):
 
     return result
 
-# Example usage
+
 arr1 = [[1, 2, 3],
         [4, 5, 6],
         [7, 8, 9]]
@@ -377,7 +377,7 @@ write a program to add the values of two 2D arrays
 
 def add_2d_arrays(arr1, arr2):
     if len(arr1) != len(arr2) or len(arr1[0]) != len(arr2[0]):
-        return None  # Return None if dimensions don't match
+        return None  
 
     result = []
     for i in range(len(arr1)):
@@ -387,7 +387,7 @@ def add_2d_arrays(arr1, arr2):
         result.append(row)
     return result
 
-# Example usage
+
 arr1 = [[1, 2, 3],
         [4, 5, 6],
         [7, 8, 9]]
