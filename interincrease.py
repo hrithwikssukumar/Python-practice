@@ -10,8 +10,6 @@ for i in list:
 print(f"The modified list is : {new_list}")  
 
 
-
-
 def inter_increase(list):
     new_list=[]
     n=2
