@@ -34,7 +34,7 @@ for i in range(n):
 
 
     
-star printing 5- reverse right sided triangle
+#star printing 5- reverse right sided triangle
 n= int(input("enter a number"))
 for i in range(n):
     for j in range(i+1):
@@ -44,7 +44,7 @@ for i in range(n):
     print()  
 
 
-star printing 6-Hill pattern
+#star printing 6-Hill pattern
 n= int(input("enter a number"))
 for i in range(n):
     for j in range(i,n):
@@ -56,7 +56,7 @@ for i in range(n):
     print()                      
 
 
-star printing 7-reverse hill pattern
+#star printing 7-reverse hill pattern
 n= int(input("enter a number"))
 for i in range(n):
     for j in range(i+1):

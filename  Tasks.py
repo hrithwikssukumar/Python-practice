@@ -1,12 +1,12 @@
-Task 1
-Accept a char input from the user and print on the console
+#Task 1
+#Accept a char input from the user and print on the console
 
 name = "Virat"
 print(name)
 
 
-Task 2
-Accept two input from the user and print its sum
+#Task 2
+#Accept two input from the user and print its sum
 
 number1 = int(input("enter two numbers"))
 number2 = float(input())
@@ -15,8 +15,8 @@ sum = number1 + number2
 print(sum)
 
 
-Task 3
-Write a program to find the simple interest
+#Task 3
+#Write a program to find the simple interest
 
 PI = int(input("enter the value of principal amount"))
 R = float(input("enter the value of interest rate"))
@@ -27,8 +27,8 @@ print("simple interest is :"+str(SI))
 
 
 
-Task 4
-write a program to check whether a student has passed or failed on a subject after he enters therir mark is 50 out of 100
+#Task 4
+#write a program to check whether a student has passed or failed on a subject after he enters therir mark is 50 out of 100
 
 mark = float(input("enter the marks:"))
 if mark > 50:
@@ -37,8 +37,8 @@ else:
     print("Student has failed the exam")    
 
 
-Task 5
-write a program to show the grade obatined by a student after he enters their total mark percentage
+#Task 5
+#write a program to show the grade obatined by a student after he enters their total mark percentage
 
 percentage = float(input("enter the percentage:"))
 
@@ -56,8 +56,8 @@ else:
     print("Student has failed")      
 
 
-Task 6
-Using the switch case write a program to accept an input number from the user and output the day as follows
+#Task 6
+#Using the switch case write a program to accept an input number from the user and output the day as follows
 
 number = int(input("enter a number 1-7:"))
 
@@ -81,8 +81,8 @@ match number:
 
                   
                  
-Task 7
-write a program to print the multiplication table of given numbers
+#Task 7
+#write a program to print the multiplication table of given numbers
 
 number = int(input("enter a number:"))
 
@@ -90,8 +90,8 @@ for i in range(1,11):
     print(number,"*",i,"=",number*i)
 
 
-Task 8
-write a program to find the sum of all the odd numbers for a given limit
+#Task 8
+#write a program to find the sum of all the odd numbers for a given limit
 
 limit = int(input("enter the limit:"))
 sum = 0
@@ -103,8 +103,8 @@ print("Sum is :",sum)
 
 
 
-Task 9
-write a progarm to print the pattern
+#Task 9
+#write a progarm to print the pattern
 
 n = 5
 for i in range(n):
@@ -113,8 +113,8 @@ for i in range(n):
     print()    
 
 
-Task 10
-write a program to interchange the values of two arrays 
+#Task 10
+#write a program to interchange the values of two arrays 
 
 list1 = [10,23,45,76,54,28]   
 list2 = [23,56,76,98,45,39]
@@ -131,8 +131,8 @@ print(list2)
 
 
 
-Task 11
-write a program to find the even numbers in an list
+#Task 11
+#write a program to find the even numbers in an list
 
 def count_even_numbers(arr):
     count = 0
@@ -146,8 +146,8 @@ even_count = count_even_numbers(arr)
 print("Number of even numbers in the array:", even_count)
 
 
-Task 12
-write a program to sort an array in descending order
+#Task 12
+#write a program to sort an array in descending order
 
 def sort_descending(arr):
     return sorted(arr, reverse=True)               
@@ -157,8 +157,8 @@ sorted_arr = sort_descending(arr)
 print("Sorted array in descending order:", sorted_arr)
 
 
-Task 13
-write a program to identify the string is palindrome or not
+#Task 13
+#write a program to identify the string is palindrome or not
 
 
 def is_palindrome(s):
@@ -178,8 +178,8 @@ else:
 
 
 
-Task 14
-write a program to add two dimensional arrays
+#Task 14
+#write a program to add two dimensional arrays
 
 
 def add_2d_arrays(arr1, arr2):
@@ -215,8 +215,8 @@ else:
 
 
 
-Task 15
-write a program to accept an array and display it on the console using functions
+#Task 15
+#write a program to accept an array and display it on the console using functions
       
 def display_array(arr):
     print("Array elements:")
@@ -240,8 +240,8 @@ if __name__ == "__main__":
 
 
 
-Task 16
-write a program to check whether the number is prime or not
+#Task 16
+#write a program to check whether the number is prime or not
 
 def is_prime(num):
     if num <= 1:
@@ -264,8 +264,8 @@ else:
     print(num, "is not a prime number.")
 
 
-Task 17
-write a menu driven program to do the basic mathematical operations such as addition,substraction,multiplication and division
+#Task 17
+#write a menu driven program to do the basic mathematical operations such as addition,substraction,multiplication and division
 def addition(a,b):
     return a+b
 def substraction(a,b):
@@ -292,8 +292,8 @@ print("Divide:",division(num1,num2))
 
 
 
-Task 18
-write a program to find out the grade of a person during his academic year
+#Task 18
+#write a program to find out the grade of a person during his academic year
 
 
 marks = int(input("enter the score of written test"))
@@ -307,8 +307,8 @@ print("Overall Grade:",overall_grade)
 
 
 
-Task 19
-write a program to find out the income tax amount of a person
+#Task 19
+#write a program to find out the income tax amount of a person
 def calculate_income_tax(income):
     if income <= 250000:
         tax = 0
@@ -338,8 +338,8 @@ if __name__ == "__main__":
 
 
 
-Task 20
-write a program to print the following pattern using for loop
+#Task 20
+#write a program to print the following pattern using for loop
 1
 23
 456
@@ -355,8 +355,8 @@ for i in range(n):
 
 
 
-Task 21
-write  a program to multiply the values of an array and store in another array
+#Task 21
+#write  a program to multiply the values of an array and store in another array
 
 def multiply_array(arr):
     result = []
@@ -372,8 +372,8 @@ result_array = multiply_array(arr)
 print("Resulting array after multiplication:", result_array)
 
 
-Task 22
-write a program to add the values of two 2D arrays
+#Task 22
+#write a program to add the values of two 2D arrays
 
 def add_2d_arrays(arr1, arr2):
     if len(arr1) != len(arr2) or len(arr1[0]) != len(arr2[0]):
@@ -406,8 +406,8 @@ else:
 
 
 
-Task 23
-write an object oriented program to store and display the values of a 2D array
+#Task 23
+#write an object oriented program to store and display the values of a 2D array
 
 class Array2D:
     def __init__(self, rows, cols):
@@ -455,8 +455,8 @@ arr.display()
 
 
 
-Task 25
-write a function that returns TRUE if its parameter is divisible by 10 and FALSE otherwise
+#Task 25
+#write a function that returns TRUE if its parameter is divisible by 10 and FALSE otherwise
 
 def is_divisible_by_10(number):
     return number % 10 == 0
@@ -472,8 +472,8 @@ print(is_divisible_by_10(num2))  # Output: False
 
 
 
-Task26
-write a program to copy its input to its output,replacing each string of one or more blanks by a single blank
+#Task26
+#write a program to copy its input to its output,replacing each string of one or more blanks by a single blank
 
 def remove_extra_spaces(input_string):
     return ' '.join(input_string.split())
@@ -497,8 +497,8 @@ if __name__ == "__main__":
 
 
 
-Task27
-write a program to print the corresponding celsius to fahrenheit table 
+#Task27
+#write a program to print the corresponding celsius to fahrenheit table 
 
 dict_temp = {
     "32.0":"0.0",
