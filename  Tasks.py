@@ -232,7 +232,6 @@ def main():
         element = int(input())
         arr.append(element)
 
-    
     display_array(arr)
 
 if __name__ == "__main__":
