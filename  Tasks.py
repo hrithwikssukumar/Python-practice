@@ -102,7 +102,6 @@ for i in range(1,limit+1,2):
 print("Sum is :",sum)    
 
 
-
 #Task 9
 #write a progarm to print the pattern
 
