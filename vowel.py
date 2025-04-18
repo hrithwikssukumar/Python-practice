@@ -8,3 +8,4 @@ def vowel(string):
 name =input("Enter a name")
 object =vowel(name)
 print(f"The number of vowel in the name is :{object}")
+

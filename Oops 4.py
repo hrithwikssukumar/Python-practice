@@ -53,10 +53,6 @@ player_3.find_total()
 
 
 
-    
-
-
-
 # Class method
 
 class Player:
